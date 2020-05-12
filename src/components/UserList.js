@@ -1,7 +1,7 @@
 import React from 'react';
 import useResources from './useResources';
 
-const userList = () => {
+const UserList = () => {
     const users = useResources('users');
 
     return (
@@ -13,4 +13,4 @@ const userList = () => {
     )
 }
 
-export default userList
+export default UserList;
